@@ -1,0 +1,80 @@
+.phone {
+    width: 300px;
+    height: 650px;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: relative;
+    margin: 50px auto;
+}
+  
+.phone-camera {
+    width: 30%;
+    height: 20px;
+    position: relative;
+    justify-content: center;
+    top: 10px;
+    left: 100px;
+}
+
+.half-round-left, 
+.retangle, 
+.half-round-right {
+  display: inline-block;
+}
+
+.retangle {
+    background-color: black;
+    width: 80%;
+    height: 100%;
+}
+
+.phone-camera .half-round-left {
+    width: 10%;
+    height: 20px;
+    background-color: black;
+    border-radius: 100px 0 0 100px;
+    float: left;
+}
+
+.phone-camera .half-round-right {
+    width: 10%;
+    height: 20px;
+    background-color: black;
+    border-radius: 0 100px 100px 0;
+    float: right;
+}
+
+.phone-body {
+    background-color: #fff;
+    box-sizing: border-box;
+    height: 83%;
+    width: 90%;
+    margin: 50px auto 0;
+    padding: 10px;
+}
+
+label {
+    width: 100%;
+    margin: 10px 0 0 0;
+    display: block; 
+  }
+
+input {
+    width: 95%;
+    border-radius: 5px;
+    height: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 0 10px 0;
+}
+
+button {
+    margin-top: 20px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#clear-btn {
+    float: right;
+}
